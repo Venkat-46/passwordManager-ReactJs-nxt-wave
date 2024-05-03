@@ -1,0 +1,65 @@
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.gray {
+  background-color: gray;
+}
+.orange {
+  background-color: orange;
+}
+.purple {
+  background-color: purple;
+}
+.password-item {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .password-item {
+    max-width: 300px;
+    margin-right:10px;
+  }
+}
+
+.initial-text {
+  color: white;
+  width: 35px;
+  height: 35px;
+  padding-top: 5px;
+  text-align: center;
+  border-radius: 40px;
+}
+.text {
+  font-size: 18px;
+  color: white;
+}
+.stars-img {
+  width: 110px;
+  height: 25px;
+}
+.delete-button {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delete-img {
+  width: 30px;
+  height: 30px;
+}
